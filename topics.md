@@ -20,3 +20,18 @@
 
 # Loops - 02
 - Exercise - Linear Search Algorithm
+
+# Recursion
+- What is recursion?
+- what are the two parts of recursion?
+    - Base case
+    - Recursive case
+- Real-life examples
+- what is the problem with an infinite recursive function call? - stack overflow
+- What is meant by stack overflow? Give me real-life demo in the browser
+- Program
+    - Print n to 1
+    - 
+# Searching
+- Linear Search
+- Binary Search
