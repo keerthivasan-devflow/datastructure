@@ -19,7 +19,6 @@ function singleNumber(nums) {
 }
 
 // Optimized Code
-
 function findSingleNumber(nums) {
   let xor = 0;
   for (let i = 0; i < nums.length; i++) {
