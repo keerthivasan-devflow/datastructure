@@ -1,10 +1,10 @@
 function reverseString(string) {
-  let size = string.length;
-  let halfLength = Math.floor(size / 2);
-  for (let i = 0; i < halfLength; i++) {
+  let n = string.length;
+  let mid = Math.floor(n / 2);
+  for (let i = 0; i < mid; i++) {
     let temp = string[i];
-    string[i] = string[size - 1 - i];
-    string[size - 1 - i] = temp;
+    string[i] = string[n - 1 - i];
+    string[n - 1 - i] = temp;
   }
   return string;
 }
