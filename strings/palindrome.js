@@ -1,3 +1,38 @@
+// Approach 1 - using built-in functions
+function palindrome(s) {
+  s = s.toLowerCase();
+  let filteredString = "";
+  for (let i = 0; i < s.length; i++) {
+    if (s[i].match(/[a-z]/i)) {
+      filteredString += s[i];
+    }
+  }
+
+  let str = filteredString.split("").reverse();
+  return filteredString === str.join("");
+}
+
+// Approach 2 - swapping method to check whether the string is palindrome
+function palindrome(s) {
+  s = s.toLowerCase();
+  let filteredString = "";
+  for (let i = 0; i < s.length; i++) {
+    if (s[i].match(/[a-z]/i)) {
+      filteredString += s[i];
+    }
+  }
+
+  let n = filteredString.length;
+  let str = filteredString.split("");
+  for (let i = 0; i < n / 2; i++) {
+    let temp = str[i];
+    str[i] = str[n - 1 - i];
+    str[n - 1 - i] = temp;
+  }
+  return filteredString === str.join("");
+}
+
+// Approach 3 - using single for loop itself
 function palindrome(s) {
   s = s.toLowerCase();
   let filteredString = "";
@@ -5,26 +40,10 @@ function palindrome(s) {
   for (let i = 0; i < s.length; i++) {
     if (s[i].match(/[a-z]/i)) {
       filteredString += s[i];
-
-      // Approach -3 [To reverse a string]
       rev = s[i] + rev;
     }
   }
-
-  // let n = filteredString.length;
-  // Approach - 1 [To reverse a string]
-  // let str = filteredString.split("").reverse();
-
-  // Approach - 2 [To reverse a string]
-  // let str = filteredString.split("");
-  // for (let i = 0; i < n / 2; i++) {
-  //   let temp = str[i];
-  //   str[i] = str[n - 1 - i];
-  //   str[n - 1 - i] = temp;
-  // }
-  // return filteredString === str.join("");
-
-  return rev === filteredString; // For Approach -3 return it
+  return rev === filteredString;
 }
 
 let result = palindrome("A man a plan a canal panama");
