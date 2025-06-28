@@ -18,8 +18,18 @@
 - Could you write a function or call a function inside a for loop?
 - for loop and working w/ arrays
 
-# Loops - 02
-- Exercise - Linear Search Algorithm
+# Warm-up
+- Loops - 01
+- Loops - 02
+- Loop in loop
+- # Programming Exercises using loops
+    - Star pattern
+    - Linear Search Algorithm
+    - Largest | Smallest | element in an array
+    - Second Largest | Second Smallest | element in an array
+    - Count Digits in a given integer
+    - Palindrome (For integers)
+    - Reverse number
 
 # Arrays - [9]
 - Remove duplicates

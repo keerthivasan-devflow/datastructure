@@ -11,15 +11,16 @@ console.log(palindrome(656));
 function customPalindrome(number) {
   if (number === 0) return "Give me some valid input or in double digits";
   if (number < 0) return false;
-  // I am actually the modifying the number value inside
-  // the while loop so that making a copy of number variable is necessary
+
   let copy = number;
   let rev = 0;
+
   while (number > 0) {
     let rem = number % 10;
     rev = rev * 10 + rem;
     number = Math.floor(number / 10);
   }
+  
   return rev === copy;
 }
 
