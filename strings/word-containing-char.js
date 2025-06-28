@@ -1,15 +1,15 @@
-// function WordContainingCharacter(arr, x) {
-//   let res = [];
-//   for (let i = 0; i < arr.length; i++) {
-//     if (arr[i].includes(x)) {
-//       res.push(i);
-//     }
-//   }
-//   return res;
-// }
-// console.log(WordContainingCharacter(["leet", "code"], "e"));
-// console.log(WordContainingCharacter(["leet", "code"], "s"));
-// console.log(WordContainingCharacter(["leet", "code"], "d"));
+function WordContainingCharacter(arr, x) {
+  let res = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i].includes(x)) {
+      res.push(i);
+    }
+  }
+  return res;
+}
+console.log(WordContainingCharacter(["leet", "code"], "e"));
+console.log(WordContainingCharacter(["leet", "code"], "s"));
+console.log(WordContainingCharacter(["leet", "code"], "d"));
 
 function FindCharacter(arr, x) {
   let res = [];
