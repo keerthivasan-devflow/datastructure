@@ -1,9 +1,9 @@
+// Approach 1 - Brute force using built-in functions
 function anagram(s, t) {
   return s.split("").sort().join("") === t.split("").sort().join("");
 }
-console.log(anagram("cat", "rat"));
-console.log(anagram("cat", "tac"));
 
+// Approach 2 - optimized code implementation using hashmaps
 function validAnagram(s, t) {
   if (s.length !== t.length) return false;
 

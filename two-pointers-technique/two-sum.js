@@ -1,9 +1,10 @@
 // Approach 1 - Brute-Force Approach
 // You cannot use same element twice so that inner loop j starts from i + 1
+// ith loop should reach till n-1 only because there are no other elements to pair
 // Time Complexity - O(n^2)
 // Space Complexity - O(1)
 function twosum(arr, target) {
-  for (let i = 0; i < arr.length; i++) {
+  for (let i = 0; i < arr.length - 1; i++) {
     for (let j = i + 1; j < arr.length; j++) {
       let sum = arr[i] + arr[j];
       if (sum === target) return [i, j];

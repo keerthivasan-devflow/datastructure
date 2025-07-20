@@ -1,9 +1,10 @@
 function buyAndSell(prices) {
-  let min = prices[0];
+  let minProfit = prices[0];
   let maxProfit = 0;
   for (let i = 0; i < prices.length; i++) {
-    if (prices[i] - min > maxProfit) maxProfit = prices[i] - min;
-    if (prices[i] < min) min = prices[i];
+    let profit = prices[i] - minProfit;
+    if (profit > maxProfit) maxProfit = profit;
+    if (prices[i] < minProfit) minProfit = prices[i];
   }
   return maxProfit;
 }

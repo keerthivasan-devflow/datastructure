@@ -23,7 +23,6 @@ Examples : array, list or string type of data structure
   - Given an array of positive integers and a positive number k, find the maximum sum of any contiguous subarray of size k
 
 
-
 # Sliding Window Technique
 
 Definition: A specific kind of two-pointer approach where the window (subarray or substring) is "slid" across the data while maintaining a condition (like a fixed size or a sum).

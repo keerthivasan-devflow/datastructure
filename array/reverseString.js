@@ -1,3 +1,20 @@
+// Approach 1
+// Time complexity - O(n)
+// Space complexity - O(1)
+function reverse(str) {
+  let left = 0;
+  let right = str.length - 1;
+  while (left <= right) {
+    [str[left], str[right]] = [str[right], str[left]];
+    left++;
+    right--;
+  }
+  return str;
+}
+
+// Approach 2
+// Time Complexity - O(n/2)
+// Space Complexity - O(1)
 function reverseString(string) {
   let n = string.length;
   let mid = Math.floor(n / 2);
@@ -9,5 +26,7 @@ function reverseString(string) {
   return string;
 }
 
-console.log(reverseString(["d", "o", "g"]));
-console.log(reverseString(["k", "e", "e", "r", "t", "h", "i"]));
+console.log(reverse(["d", "o", "g"]));
+console.log(reverse(["k", "e", "e", "r", "t", "h", "i"]));
+console.log(reverse(["a", "p", "p", "l", "e"]));
+console.log(reverse(["o", "r", "a", "c", "l", "e"]));

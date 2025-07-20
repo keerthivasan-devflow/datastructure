@@ -1,9 +1,10 @@
 function bubblesort(nums) {
+  let n = nums.length;
   let temp = 0;
   let swapped;
-  for (let i = 0; i < nums.length; i++) {
+  for (let i = 0; i < n - 1; i++) {
     swapped = false;
-    for (let j = 0; j < nums.length - 1 - i; j++) {
+    for (let j = 0; j < n - 1 - i; j++) {
       if (nums[j] > nums[j + 1]) {
         temp = nums[j];
         nums[j] = nums[j + 1];

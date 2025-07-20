@@ -3,25 +3,27 @@
 // 2. If an array has only one element
 // 3. If an array has duplicates = [10, 20, 20] then firstLargest = 20, secondLargest = 20
 // 4. If an array has duplicates = [10, 20, 20] then (arr[i] != firstlargest) => firstLargest = 20, secondLargest = 10
+// 5. If an array contains negative elements, will your code still work without any issue?
 
 function secondLargest(arr) {
   if (arr.length < 2) return null;
 
   // Important note: it can be -1 or 0 or as needed! but instead it can be arr[0] | - Infinity
   let firstlargest = -Infinity;
-  let secondLargest = -Infinity;
+  let secondlargest = -Infinity;
 
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] > firstlargest) {
-      secondLargest = firstlargest;
+      secondlargest = firstlargest;
       firstlargest = arr[i];
-    } else if (arr[i] > secondLargest && arr[i] != firstlargest) {
-      secondLargest = arr[i];
+    } else if (arr[i] > secondlargest && arr[i] != firstlargest) {
+      secondlargest = arr[i];
     }
   }
 
-  return [firstlargest, secondLargest];
+  return secondLargest;
 }
 
+console.log(secondLargest([4, 9, 0, 2, 8, 7, 1]));
 console.log(secondLargest([10, 5, 16, 98, 63, 12]));
 console.log(secondLargest([10, 20, 20]));

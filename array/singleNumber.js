@@ -1,4 +1,4 @@
-// Brute-force approach
+// Approach 1 - Brute force approach
 // Time Complexity - O(n)
 // Space Complexity - O(n/2) - O(n)
 
@@ -18,7 +18,9 @@ function singleNumber(nums) {
   }
 }
 
-// Optimized Code
+// Approach 2 - Optimized Code
+// Time complexity - O(n)
+// Space complexity - O(1)
 function findSingleNumber(nums) {
   let xor = 0;
   for (let i = 0; i < nums.length; i++) {

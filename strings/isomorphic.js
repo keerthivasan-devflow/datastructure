@@ -8,9 +8,9 @@ function isomorphic(s, t) {
     if (!smap[s[i]] && !tmap[t[i]]) {
       smap[s[i]] = t[i];
       tmap[t[i]] = s[i];
-    } else if (tmap[t[i]] !== s[i] || smap[s[i]] !== t[i]) return false;
+    } else if (smap[s[i]] !== t[i] || tmap[t[i]] !== s[i]) return false;
   }
-  
+
   return true;
 }
 

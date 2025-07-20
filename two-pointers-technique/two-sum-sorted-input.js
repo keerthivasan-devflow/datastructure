@@ -1,3 +1,4 @@
+// Approach 1 - Optimized code
 // Time Complexity - O(n)
 // Space Complexity - O(1)
 
