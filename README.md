@@ -121,3 +121,10 @@
 - Find longest repeating characters
 - Permutation in string
 - Sliding window maximum
+
+
+# RESOURCES
+- https://github.com/ashishps1/awesome-system-design-resources - Overall System Design Resources
+- https://github.com/ashishps1/awesome-low-level-design - Low Level Design
+
+- Ashish Pratap Singh - YouTube Channel
