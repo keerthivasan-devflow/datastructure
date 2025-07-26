@@ -19,6 +19,8 @@ function singleNumber(nums) {
 }
 
 // Approach 2 - Optimized Code
+// This approach will work only if all the array elements should be exist exactly twice except 1 element like : [3, 2, 2, 4, 3].
+// If the input is - [3, 2, 3, 3] then the approach will not work, we will have to go with before one.
 // Time complexity - O(n)
 // Space complexity - O(1)
 function findSingleNumber(nums) {
