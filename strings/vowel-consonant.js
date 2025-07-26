@@ -3,27 +3,32 @@
 // Space Complexity - O(1) where O(1) is a maximum of english letters of 26 alphabets
 
 function CountVowelAndConsonant(s) {
-  let chars = {};
+  let hashmap = {};
 
   for (let i = 0; i < s.length; i++) {
-    chars[s[i]] = (chars[s[i]] || 0) + 1;
+    hashmap[s[i]] = (hashmap[s[i]] || 0) + 1;
   }
 
-  let vowel = 0;
-  let consonant = 0;
+  let vowelCount = 0;
+  let consonantCount = 0;
   let vowels = ["a", "e", "i", "o", "u"];
-  let charkeys = Object.keys(chars);
+  let keys = Object.keys(hashmap);
 
-  for (let i = 0; i < charkeys.length; i++) {
-    if (vowels.includes(charkeys[i])) {
-      if (chars[charkeys[i]] > vowel) {
-        vowel = chars[charkeys[i]];
+  for (let i = 0; i < keys.length; i++) {
+    if (vowels.includes(keys[i])) {
+      if (hashmap[keys[i]] > vowelCount) {
+        vowelCount = hashmap[keys[i]];
       }
     } else {
-      consonant = Math.max(chars[keys[i]], consonant);
+      consonantCount = Math.max(hashmap[keys[i]], consonantCount);
     }
   }
-  return consonant + vowel;
+
+  return {
+    maxFrequencyOfVowel: vowelCount,
+    maxFrequencyOfConsonant: consonantCount,
+    sumOfBoth: vowelCount + consonantCount,
+  };
 }
 
 console.log(CountVowelAndConsonant("successes"));
