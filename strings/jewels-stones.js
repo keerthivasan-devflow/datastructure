@@ -26,14 +26,14 @@ function findJewels(jewels, stones) {
 // Optimized Code using [new Set()]
 // Hint : jewels must be unique, but stones can be duplicated!
 function findJewels(jewels, stones) {
-  let jset = new Set();
+  let jewels = new Set();
   for (let i = 0; i < jewels.length; i++) {
-    jset.add(jewels[i]);
+    jewels.add(jewels[i]);
   }
 
   let count = 0;
   for (let j = 0; j < stones.length; j++) {
-    if (jset.has(stones[j])) {
+    if (jewels.has(stones[j])) {
       count++;
     }
   }
