@@ -36,7 +36,7 @@
 - Palindrome (For integers)
 - Reverse number
 
-# Arrays - [9]
+# Arrays (9)
 
 - Remove duplicates - [26]
 - Remove Element - [27]
@@ -64,35 +64,35 @@
   - Power two program exercise
   - Recursion masterclass - (fibonacci number)
 
-# Searching Algorithm - [2]
+# Searching Algorithm (2)
 
 - Linear Search
 - Binary Search
 
-# Sorting - [4]
+# Sorting (4)
 
 - Bubble sort
 - Selection sort
 - Insertion sort
 - Merge sort
 
-# String Manipulation - [15]
+# String Manipulation (15)
 
-- Find the length of the last word from a given string - approach 1
-- Find the length of the last word from a given string - approach 2
-- Find the word containing character
-- Jewels and stones
-- Max frequency of vowel and consonant
-- Balanced strings
-- Reverse K-characters
-- Palindrome (approach 1)
-- Palindrome (approach 2)
-- Find the largest odd number in a given string
-- Find the largest common prefix
-- Isomorphic strings
-- Valid anagrams
-- Group valid anagrams - approach 1 - Sorted key
-- Group valid anagrams - approach 2 - Hashed key
+- Find the length of the last word from a given string - approach 1 - [58]
+- Find the length of the last word from a given string - approach 2 - [58]
+- Find the word containing character - [2942]
+- Jewels and stones - [771]
+- Max frequency of vowel and consonant - [3541]
+- Balanced strings - [1221]
+- Reverse K-characters - [541]
+- Palindrome (approach 1) - [125]
+- Palindrome (approach 2) - [125]
+- Find the largest odd number in a given string - [1903]
+- Find the largest common prefix - [14]
+- Isomorphic strings - [205]
+- Valid anagrams - [242]
+- Group valid anagrams - approach 1 - Sorted key - [49]
+- Group valid anagrams - approach 2 - Hashed key - [49]
 
 # Stack and Queue
 
@@ -103,7 +103,7 @@
 - Remove outermost parantheses using Stack - [1021]
 - Remove outermost parantheses w/o using Stack - [1021]
 
-# Two Pointer Technique - [8]
+# Two Pointer Technique (8)
 
 - Two sum
 - Two sum II - Sorted Input Array
@@ -114,7 +114,7 @@
 - Three sum
 - Trapping the rain water
 
-# Sliding Window Technique - [5]
+# Sliding Window Technique (5)
 
 - Find index of first occurence of substring in a string
 - Find longest substring without repeating characters
