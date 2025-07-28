@@ -28,3 +28,9 @@ Example: "BDDIKXEB" : return E's index
 # Very useful link 
 - https://leetcode.com/discuss/post/6477418/list-of-problems-by-jeet_shaw-xruv/
 - https://leetcode.com/discuss/post/448285/list-of-questions-sorted-by-common-patte-936d/
+
+# RESOURCES
+- https://github.com/ashishps1/awesome-system-design-resources - Overall System Design Resources
+- https://github.com/ashishps1/awesome-low-level-design - Low Level Design
+
+- Ashish Pratap Singh - YouTube Channel
