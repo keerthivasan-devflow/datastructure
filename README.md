@@ -97,6 +97,10 @@
 14. Group valid anagrams - approach 1 - Sorted key - [49]
 15. Group valid anagrams - approach 2 - Hashed key - [49]
 
+# Linked List
+
+1. Design Linked List - [707]
+
 # Stack and Queue (6)
 
 1. Stack using Queue - [225]
@@ -105,6 +109,13 @@
 4. Min Stack - [155]
 5. Remove outermost parantheses using Stack - [1021]
 6. Remove outermost parantheses w/o using Stack - [1021]
+
+# Binary Search Algorithm
+
+1. Sqrt(x) - [69]
+2. Guess number higher or lower - [374]
+3. Search in rotated sorted array - []
+4. First bad version - []
 
 # Two Pointer Technique (8)
 
