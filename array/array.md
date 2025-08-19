@@ -1,5 +1,7 @@
-# Leetcode [26] - Remove duplicates from sorted array
-### Approach 1
+## 1. Leetcode [26] - Remove duplicates from sorted array
+
+```js
+// Approach 1
 function removeduplicates(arr) {
   let x = 0;
   for (let i = 0; i < arr.length; i++) {
@@ -11,7 +13,7 @@ function removeduplicates(arr) {
   return arr;
 }
 
-### Approach 2
+// Approach 2
 function removeduplicates(arr) {
   let x = 0;
   for (let i = 1; i < arr.length; i++) {
@@ -26,3 +28,15 @@ function removeduplicates(arr) {
   }
   return arr;
 }
+
+// Approach 3 - Using an extra array variable
+function removeDuplicates(arr) {
+  let uniqueArray = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (!uniqueArray.includes(arr[i])) {
+      uniqueArray.push(arr[i]);
+    }
+  }
+  return uniqueArray;
+}
+```
