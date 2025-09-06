@@ -1,3 +1,5 @@
+// Time complexity - O(n)
+// Space complexity - O(1)
 
 var removeNthFromEnd = function (head, n) {
   let sentinel = new ListNode();

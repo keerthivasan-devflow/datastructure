@@ -1,4 +1,10 @@
-## 1. Leetcode [26] - Remove duplicates from sorted array
+## 1. Leetcode [26] - Remove duplicates from sorted array in-place
+
+**In case you no need to remove duplicates in-place**
+
+1. array.filter()
+2. new Set()
+3. array.includes()
 
 ```js
 // Approach 1

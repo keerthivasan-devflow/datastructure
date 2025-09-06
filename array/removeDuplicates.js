@@ -6,7 +6,7 @@ function removeDuplicates(arr) {
       arr[x] = arr[i];
     }
   }
-  return arr;
+  return [arr, x + 1]; // where x + 1 represents the total number of unique elements
 }
 
 console.log(removeDuplicates([0, 0, 1, 1, 1, 1, 2, 3, 4, 4]));
