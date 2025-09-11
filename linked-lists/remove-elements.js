@@ -5,12 +5,12 @@ var removeElements = function (head, val) {
   let sentinel = new ListNode();
   sentinel.next = head;
 
-  let curr = sentinel;
-  while (curr && curr.next) {
-    if (curr.next.val === val) {
-      curr.next = curr.next.next;
+  let prev = sentinel;
+  while (prev && prev.next) {
+    if (prev.next.val === val) {
+      prev.next = prev.next.next;
     } else {
-      curr = curr.next;
+      prev = prev.next;
     }
   }
   return sentinel.next;

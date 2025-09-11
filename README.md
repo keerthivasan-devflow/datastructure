@@ -97,9 +97,26 @@
 14. Group valid anagrams - approach 1 - Sorted key - [49]
 15. Group valid anagrams - approach 2 - Hashed key - [49]
 
-# Linked List
+# Singly Linked List
 
 1. Design Linked List - [707]
+2. Get and Delete Node From List - [707]
+3. Middle of the Linked List - [876]
+4. Reverse Linked List - [206]
+5. Linked List Cycle - Hash Table [141]
+6. Linked List Cycle - Floyd's Detection Algorithm [141]
+7. Palindrome Linked List - [234]
+8. Intersection of Two Linked List - [160]
+9. Remove Linked List Elements - [203]
+10. Remove nth Node From End Of Linked List - Two Pass - [19]
+11. Remove nth Node From End Of Linked List - One Pass - [19]
+12. Remove Duplicates from Sorted Linked List - [83]
+13. Odd Even Linked List - [328]
+14. Add Two Numbers - [2]
+15. Merge Two Sorted Linked List - [21]
+16. Rotate Linked List - [61]
+17. Swap Nodes in Pair - Iterative Approach - [24]
+18. Swap Nodes in Pair - Recursive Approach - [24]
 
 # Stack and Queue (6)
 

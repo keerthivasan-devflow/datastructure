@@ -3,13 +3,13 @@
 var middleNode = function (head) {
   let curr = head;
   let length = 0;
-  while (curr.next !== null) {
-    curr = curr.next;
+  while (curr !== null) {
     length++;
+    curr = curr.next;
   }
 
   let temp = head;
-  for (let i = 0; i < Math.ceil(length / 2); i++) {
+  for (let i = 0; i < Math.floor(length / 2); i++) {
     temp = temp.next;
   }
   return temp;
