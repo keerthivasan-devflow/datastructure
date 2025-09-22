@@ -126,6 +126,11 @@
 4. Min Stack - [155]
 5. Remove outermost parantheses using Stack - [1021]
 6. Remove outermost parantheses w/o using Stack - [1021]
+7. Evaluate Reverse Polish Notation - [150]
+8. Next Greater Element - I - [496]
+9. Daily Temperatures - [739]
+10. Next Greater Element - II - [503]
+11. Rotting Oranges - [994]
 
 # Binary Search Algorithm
 
@@ -152,3 +157,8 @@
 3. Find longest repeating characters
 4. Permutation in string
 5. Sliding window maximum
+
+# Binary Tree
+1. Pre-order Traversal - [144]
+2. Post-order Traversal - [145]
+3. Inorder Traversal - [94]
