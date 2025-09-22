@@ -25,6 +25,26 @@ function validAnagram(s, t) {
 console.log(validAnagram("apple", "lppea"));
 console.log(validAnagram("cat", "rat"));
 
+//Approach 3 - Efficient code with a single map and reduces the space complexity
+function validAnagram(s, t) {
+  if (s.length !== t.length) return false;
+
+  for (let i = 0; i < s.length; i++) {
+    map[s[i]] = (map[s[i]] || 0) + 1;
+    map[t[i]] = (map[t[i]] || 0) - 1;
+  }
+
+  for (let key in map) {
+    if (map[key] !== 0) return false;
+  }
+
+  return true;
+}
+
+console.log(validAnagram("apple", "lppea"));
+console.log(validAnagram("cat", "rat"));
+
+// Approach 4 -
 function validAnagram2(s, t) {
   if (s.length !== t.length) return false;
 
