@@ -1,3 +1,4 @@
+// Approach 1 - Remove Outermost Parantheses using Stack
 // Time Complexity - O(n)
 // Space Complexity - O(n)
 var removeOuterParentheses = function (s) {
@@ -20,6 +21,7 @@ var removeOuterParentheses = function (s) {
   return ans;
 };
 
+// Approach 2 - Remove Outermost Parantheses without Stack
 // Time Complexity - O(n)
 // Space Complexity - O(1) aside from the result storage, the logic only uses a constant amount of space (e.g., the 'level').
 var removeOuterParenthesesWithoutStack = function (s) {

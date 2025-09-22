@@ -1,6 +1,8 @@
 // Time Complexity - O(n)
 // Space Complexity - O(n)
 
+// Approach 1
+// Example - {[]}) - where !top is used to define if the stack is empty but trying to get the last element from the stack
 var isValid = function (s) {
   let stack = [];
   for (let i = 0; i < s.length; i++) {
@@ -20,6 +22,7 @@ var isValid = function (s) {
   return stack.length === 0;
 };
 
+// Approach 2 - Optimized code using map
 var isValid2 = function (s) {
   let stack = [];
   let map = {
