@@ -1,7 +1,7 @@
-## Two-Pointer Technique
-- To reduce time complexity from O(n²) to O(n) and memory usage
+## Two-Pointer Technique - Usually works well w/ arrays, strings and linked lists
+- To reduce time complexity from O(n²) to O(n) | O(n log n) and memory usage
 - To efficiently solve problems involving sorted arrays, contiguous subarrays or intervals
-- To modify the array in-place
+- To modify the array in-place, finding pairs or ranges
 
 ### Classic Problems Solvable By Two Pointers
 

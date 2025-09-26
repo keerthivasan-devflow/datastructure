@@ -47,3 +47,33 @@ Example: "BDDIKXEB" : return E's index
 - https://github.com/ashishps1/awesome-low-level-design - Low Level Design
 
 - Ashish Pratap Singh - YouTube Channel
+
+
+## Datastructures
+1. Linear - Array, Linked List, Stack, Queue
+2. Non-Linear - Trees, Graphs
+
+# Points to remember
+
+3. Binary Tree
+4. Binary Search Tree
+5. AVL Tree
+6. Red Black Tree
+7. Splay Tree
+8. B-/B+ Tree
+9. Dijkstra Algorithm
+10. Bellman Ford Algorithm
+11. Floyd Warshall
+12. BFS and DFS
+13. Minimum Spanning Tree
+14. Prims Algorithm
+15. Kruskals Algorithm
+
+## Techniques
+1. Two Pointer Technique
+2. Slow and Fast Pointer Technique
+3. Sliding window Technique
+4. Hashing - set | map
+5. Binary Search Algorithm
+6. Searching Algorithm
+7. Sorting Algorithms

@@ -1,46 +1,36 @@
+## Trees
+
+- Used to represent hierarchial relationship (parent-child relationship).
+- Collection of nodes where each node connected with each other by edges.
+- If there are N'nodes in the tree, there will be definitely n-1 edges.
+  - If you add one more edge, then trees will form a cycle but trees cannot have cycles in fact.
+
 # Tree Terminologies
 
-1.  Root Node
-2.  Edges - These edges are uni-directional only
-3.  Parent Node
-4.  Children Node
-5.  Siblings Node
-6.  Leaf Node | External Node
-7.  Non-Leaf Node | Internal Node
-8.  Subtree
-9.  Path - A sequence of consecutive edges from root node to that node
-10. Degree of a node - No.of.children of that node
-11. Ancestor - any predecessor on the path from root to that node
-12. Descendant - any successor on the path from that node to leaf node
-13. Predecessor
-14. Successor
-15. Level of a node -
-16. Height of a node - A path from that node to leaf node (but longest path will be considered)
-17. Depth of a node - A path from root to that node but depth of the root node will always be ZERO
+1.  Root Node - The topmost node of a tree, which has no parent.
+2.  Edges | Link - These edges are uni-directional only
+3.  Parent Node - Immediate predecessor of any node.
+4.  Children Node - Immediate successor of any node.
+5.  Siblings Node - Nodes that shares the same parent.
+6.  Leaf Node | External Node - A node that doesn't have any children node.
+7.  Non-Leaf Node | Internal Node - A node at least have one child.
+8.  Path - A sequence of consecutive edges from source node to destination node.
+9.  Ancestor - Any predecessor node on the path from root to that node.
+10. Descendant - Any successor node on the path from that node to leaf node.
+11. Predecessor - Previous node
+12. Successor - Next node
+13. Subtree
 
-- Level 0 nodes will have depth 0
-- Level 1 nodes will have depth 1
-- Level 2 nodes will have depth 2
+14. Degree of a node - Number of children of that node but the degree of leaf node will always be ZERO
+15. Degree of a tree - Maximum degree among all nodes.
 
-- **Level of a node === Depth of a node but Level of a node !== Height of a node**
-- **Level of a tree === Depth of a tree === Height of a tree**
+16. Level of a node - If a node is reached by traversing k edges from the root, then level of a node = K
+17. Level of a tree - Maximum level among all nodes.
 
-# Points to remember
+18. Height of a node - Number of edges from that node to leaf node (but longest path will be considered).
+19. Height of a tree - Number of edges from root node to leaf node (but longest path will be considered).
+20. Height of a leaf node - Always 0.
 
-1. Trees cannot have cycles
-2. If there are N'nodes in the tree, there will be definitely n-1 edges
-
-
-1. Binary Tree
-2. Binary Search Tree
-3. AVL Tree
-4. Red Black Tree
-5. Splay Tree
-6. B-/B+ Tree
-7. Dijkstra Algorithm
-8. Bellman Ford Algorithm
-9. Floyd Warshall
-10. BFS and DFS
-11. Minimum Spanning Tree
-12. Prims Algorithm
-13. Kruskals Algorithm
+21. Depth of a node - Number of edges from root to that node but depth of the root node will always be ZERO.
+22. Depth of a tree - The maximum depth among all nodes.
+23. Depth of a root node - Always 0.
