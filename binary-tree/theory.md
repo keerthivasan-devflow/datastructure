@@ -34,3 +34,60 @@
 21. Depth of a node - Number of edges from root to that node but depth of the root node will always be ZERO.
 22. Depth of a tree - The maximum depth among all nodes.
 23. Depth of a root node - Always 0.
+
+## Depth First Search
+
+- Explores a tree by visiting nodes as deeply as possible along a branch before backtracking
+- DFS uses stack
+- Already implemented tree traversal using recursion and iterative approach with a stack.
+
+1. Pre-Order Tree Traversal
+2. Post-Order Tree Traversal
+3. In-Order Tree Traversal
+
+## Breadth First Search
+
+- Explores a tree by visiting nodes level by level
+- BFS uses queue
+
+1. Level Order Traversal
+2. Zig-Zag | Spiral Level Order Traversal
+3. Level Order Traversal w/ Grouping
+4. Finding sum/averages at each level
+
+## Tree Traversals
+
+- If preorder or postorder is given along with inorder traversal, then it will be easy to construct a binary tree
+- If preorder and postorder are only given, then cannot construct an unique BT, but it is possible to construct an unique FBT
+
+## Questions
+
+### 1. Are depth-first search (DFS) tree traversals specific to binary trees, or do they apply generally to all types of trees?
+
+- Pre-order, in-order, and post-order traversals are specific to binary trees due to their fixed structure with at most two children per node.
+- General trees allow nodes to have any number of children, not limited to two.
+- Tree traversals for general trees do not use the in-order traversal because there is no fixed "middle" child to visit after the left and before the right.
+- pre-order and post-order traversals apply broadly to trees in general
+
+## 2. DFS uses stack and BFS uses queue. But why?
+
+- Stack principle is LIFO
+- Queue principle is FIFO
+
+## 3. Follow-Up Question - Can DFS use queue and BFS use stack?
+
+- Definitely NO!
+- Even if apply, DFS will result in BFS and vice-versa but this would not be an expected behavior because DFS should explore as deep as possible and BFS should explore trees level by level
+
+## 4. Any real-time application which uses general tree traversals like pre-order or post-order?
+
+- Yes, XML/HTML DOM construction
+- File System - Listing out all the files and directories related to parent directory
+
+## 5. Memory representation of binary tree. How does it look like?
+
+## 6. What is Symmetric Tree?
+
+## 7. How would you find the leaf node in binary tree programmatically?
+
+- if there is no left and right node of any node, them we found a leaf node at any level.

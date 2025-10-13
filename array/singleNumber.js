@@ -1,4 +1,4 @@
-// Approach 1 - Brute force approach
+// Approach 1 - Brute-Force Solution
 // Time Complexity - O(n)
 // Space Complexity - O(n/2) - O(n)
 
@@ -18,7 +18,7 @@ function singleNumber(nums) {
   }
 }
 
-// Approach 2 - Optimized Code
+// Approach 2 - Optimal Solution
 // This approach works only when every element appears exactly twice except one - [3, 2, 2, 4, 3].
 // This approach fails for inputs like [3, 2, 3, 3]. The previous method is required instead.
 // Time complexity - O(n)

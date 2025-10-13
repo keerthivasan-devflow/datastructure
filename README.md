@@ -159,6 +159,14 @@
 5. Sliding window maximum
 
 # Binary Tree
-1. Pre-order Traversal - [144]
-2. Post-order Traversal - [145]
-3. Inorder Traversal - [94]
+
+1. Pre-order Traversal - [144] - Using Recursion | Stack
+2. Post-order Traversal - [145] - Using Recursion | Stack
+3. Inorder Traversal - [94] - Using Recursion | Stack
+4. Level Order Traversal - [102] - Using Recursion | Stack
+5. Maximum depth of a binary tree - [104] - Using Recursion - [Top-down Approach | Bottom-up Approach]
+6. Path Sum - []
+7. Symmetric Tree - [101]
+8. Symmetric Tree - [101] - Iterative Approach
+9. Invert Binary Tree - [226]
+10. Same Tree - [100]

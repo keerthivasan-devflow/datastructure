@@ -1,15 +1,4 @@
-
----
-
-### **General Tree Types**
-
-- **Binary Tree:** Each node has at most two children (left and right).
-- **Ternary Tree:** Each node can have up to three children.
-- **N-ary Tree:** Each node can have up to _N_ children.
-
----
-
-### **Specialized Binary Trees**
+### Specialized Types Of Binary Trees
 
 - **Full Binary Tree:** Every node has either 0 or 2 children. No node has only one child
 - **Perfect Binary Tree:** All internal nodes have two children, and all leaves are at the same level.
@@ -19,7 +8,7 @@
 
 ---
 
-### **Search-Oriented Trees**
+### Search-Oriented Trees
 
 - **Binary Search Tree (BST):** Left child < parent < right child. Enables fast search, insert, and delete.
 - **AVL Tree:** A self-balancing BST where the height difference between subtrees is ≤ 1.
@@ -29,7 +18,7 @@
 
 ---
 
-### **Heap Trees**
+### Heap Trees
 
 - **Min Heap:** Parent ≤ children; root is the smallest element.
 - **Max Heap:** Parent ≥ children; root is the largest element.
@@ -37,28 +26,28 @@
 
 ---
 
-### **Trie (Prefix Tree)**
+### Trie (Prefix Tree)
 
 - Used for efficient retrieval of strings, especially in dictionary and autocomplete applications.
 - Each node represents a character; paths form words.
 
 ---
 
-### **Segment Tree**
+### Segment Tree
 
 - Used for range queries and updates (e.g., sum, min, max) on arrays.
 - Efficient for dynamic programming and competitive programming.
 
 ---
 
-### **Fenwick Tree (Binary Indexed Tree)**
+### Fenwick Tree (Binary Indexed Tree)
 
 - Optimized for prefix sum queries and updates.
 - More space-efficient than segment trees.
 
 ---
 
-### **Suffix Tree**
+### Suffix Tree
 
 - Represents all suffixes of a string.
 - Useful in string matching and bioinformatics.

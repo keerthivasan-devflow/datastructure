@@ -1,4 +1,4 @@
-// Approach 1
+// Approach 1 - Optimal Solution using swaping technique with the help of ES6-Destructuring an array concept
 // Time complexity - O(n)
 // Space complexity - O(1)
 function reverse(str) {
@@ -12,8 +12,8 @@ function reverse(str) {
   return str;
 }
 
-// Approach 2
-// Time Complexity - O(n/2)
+// Approach 2 - optimal Solution
+// Time Complexity - O(n/2) - O(n) because ignore constants (K)
 // Space Complexity - O(1)
 function reverseString(string) {
   let n = string.length;

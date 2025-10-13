@@ -1,4 +1,6 @@
-
+// Approach 1 - Optimal Solution
+// Time Complexity - O(n)
+// Space Complexity - O(n)
 var containsDuplicate = function (nums) {
   let map = {};
   for (let i = 0; i < nums.length; i++) {

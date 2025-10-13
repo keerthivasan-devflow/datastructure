@@ -1,3 +1,6 @@
+// Approach 1 - Optimal Solution
+// Time Complexity - O(n)
+// Space Complexity - O(1)
 function missingNumber(nums) {
   let n = nums.length;
   let totalSum = (n * (n + 1)) / 2;

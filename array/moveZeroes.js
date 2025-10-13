@@ -1,3 +1,6 @@
+// Approach 1 - Optimal Solution
+// Time Complexity - O(n)
+// Space Complexity - O(1)
 function moveZeroes(nums) {
   let x = 0;
   for (let i = 0; i < nums.length; i++) {

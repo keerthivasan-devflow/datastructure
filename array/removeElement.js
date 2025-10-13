@@ -1,3 +1,11 @@
+// Approach 1 - Simplest way to remove duplicates using built-in functions or methods
+function removeElement(arr, target) {
+  return arr.filter((element) => element !== target);
+}
+
+// Approach 2 - Optimal Solution
+// Time Complexity - O(n)
+// Space Complexity - O(1)
 function removeElement(arr, target) {
   let x = 0;
   for (let i = 0; i < arr.length; i++) {

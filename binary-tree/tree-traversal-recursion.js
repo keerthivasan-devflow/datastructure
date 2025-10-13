@@ -1,5 +1,5 @@
 // Time Complexity - O(n)
-// Space Complexity - O(n)
+// Space Complexity - O(h) where h represents the height of the tree. You can say O(n) also.
 
 // Pre-order Tree Traversal
 var preorderTraversal = function (root) {

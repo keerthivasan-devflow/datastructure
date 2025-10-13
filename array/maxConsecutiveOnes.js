@@ -1,3 +1,6 @@
+// Approach 1 - Optimal Solution
+// Time Complexity - O(n)
+// Space Complexity - O(1)
 function maxConsecutiveOnes(nums) {
   let currCount = 0;
   let maxCount = 0;

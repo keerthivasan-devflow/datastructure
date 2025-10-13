@@ -1,9 +1,13 @@
+// Approach 1 - Using built-in functions or methods
 function mergeSortedArrayBruteForce(nums1, nums2) {
   return nums1.concat(nums2).sort();
 }
 
 console.log(mergeSortedArrayBruteForce([1, 2, 3], [2, 6, 9], 3, 3));
 
+// Approach 2 - Using an extra copy of an array
+// Time Complexity - O(n)
+// Space Complexity - O(n)
 function mergeSortedArrayWithExtraCopy(nums1, nums2, m, n) {
   let nums1Copy = [...nums1];
   let p1 = 0;
@@ -21,6 +25,9 @@ function mergeSortedArrayWithExtraCopy(nums1, nums2, m, n) {
   return nums1;
 }
 
+// Approach 3 - Without making an extra copy of array
+// Time Complexity - O(n)
+// Space Complexity - O(1)
 function mergeSortedArrayWithoutExtraCopy(nums1, nums2, m, n) {
   let p1 = m - 1;
   let p2 = n - 1;

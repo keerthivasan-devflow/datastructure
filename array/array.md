@@ -1,48 +1,20 @@
-## 1. Leetcode [26] - Remove duplicates from sorted array in-place
+## 1.Remove duplicates from sorted array in-place
 
-**In case you no need to remove duplicates in-place**
+- Sorted - Non-decreasing Order
+- In-Place
+- Two Pointers Technique Introduction
+- **Different ways of writing remove duplicates logic**
+  - Brute-Force Approach - Takes O(n^2)
+  - Optimal Approach - Takes O(n)
+  - Less-Optimized Approach - Because it takes both time and space O(n) complexity [Using Set() in javascript]
 
-1. array.filter()
-2. new Set()
-3. array.includes()
+## 4.Best Time to Buy and Sell Stocks
+- **Difference between j = i + 1 and j = 1**
+  
+  If the inner loop is written as for (let j = 1; j < prices.length; j++), then for every iteration of the outer loop (i), the inner loop (j) always starts at 1. This means you will compare all prices[i] with every prices[j] where j is not necessarily after i. This leads to combinations where you are comparing past and future days in both directions, which is not appropriate for the buy/sell stock problem.​
 
-```js
-// Approach 1
-function removeduplicates(arr) {
-  let x = 0;
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i] > arr[x]) {
-      x = x + 1;
-      arr[x] = arr[i];
-    }
-  }
-  return arr;
-}
+  If you write for (let j = i+1; j < prices.length; j++), the inner loop always starts from the next day after i, guaranteeing that the "sell" day is always after the "buy" day. This is logically correct for stock profit calculation scenarios, where you can only sell after buying
 
-// Approach 2
-function removeduplicates(arr) {
-  let x = 0;
-  for (let i = 1; i < arr.length; i++) {
-    if (arr[i] !== arr[x]) {
-      x = x + 1;
-      arr[x] = arr[i];
-    }
-  }
-
-  for (let i = x + 1; i < arr.length; i++) {
-    arr[i] = 0;
-  }
-  return arr;
-}
-
-// Approach 3 - Using an extra array variable
-function removeDuplicates(arr) {
-  let uniqueArray = [];
-  for (let i = 0; i < arr.length; i++) {
-    if (!uniqueArray.includes(arr[i])) {
-      uniqueArray.push(arr[i]);
-    }
-  }
-  return uniqueArray;
-}
-```
+- j = 1: inner loop always starts from index 1 for every i, so you get repeated and invalid pairs.
+- j = i+1: inner loop always starts right after the current i, ensuring "buy before sell" only.
+- Using j = i+1 is the correct approach for problems where the order (i before j) matters, like stock trading scenarios.
